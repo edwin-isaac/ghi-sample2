@@ -1,0 +1,380 @@
+{% extends "layout.html" %}
+{% block title %}
+<title>VACCINE</title>
+{% endblock %}
+
+{% block frontimg %}
+<img id="fore" src="{{ url_for('static',filename='img/company.jpg') }}" />
+{% endblock %}
+
+{% block content %}
+<div>
+<p class="pagetitle">About / <a href="/vaccine" class="titlebold">Vaccine</a></p>
+</div>
+<br>
+<div class="row">
+    <p class="titlecolorbluewho">WHO Vaccine Equity Project</p>
+    <p class="whotxtcontent">The COVID-19 Vaccines Global Access (COVAX) facility aims to speed up
+        the development, manufacturing, and distribution of new vaccines but is not the only proposal
+        for ethical allocation on the table. This project considers how we can improve existing
+        proposals for equitable vaccine allocation that have overlooked three crucial equity claims.
+        First, we believe it is imperative to encourage international organizations, such as the
+        WHO to focus on individuals, rather than nations, as the main stakeholders in debates about
+        ethical distribution. Individuals suffer health problems, countries do not. Second, ethical
+        distribution requires focusing on what happens with the vaccines within as well as between
+        countries. We believe that even though distribution should not be conditional on good
+        governance, distributors should work towards creative solutions to reach people everywhere
+        including the most vulnerable and marginalized. Third, while ethical vaccine allocation is
+        paramount, actual vaccine distribution will determine the success of whatever strategy is
+        adopted. Efforts must also be geared towards maximizing vaccine production, distribution,
+        and consumption. In short, we believe ethical vaccine allocation requires combating scarcity
+        and expanding access to new vaccines and overcoming the fundamental barriers to access rather
+        than just shifting resources around.</p>
+</div>
+
+<div class="row">
+    <p class="titlecolorredwho">Contributors</p>
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-6">
+        <img width="191px" height="183px" src="static/img/WHO/Nicole2.png"/>
+        <p class="namecolorbluewho">Nicole Hassoun</p>
+        <p class="whotxtcontent">Nicole Hassoun is a visiting scholar at Cornell University and Professor of Philosophy at Binghamton University. She has published widely on ethical issues in health resource allocation with more than seventy papers in top ethics, economics, and public health journals including the American Philosophical Quarterly, Journal of Development Economics, Australasian Journal of Philosophy, PLoS One and the American Journal of Tropical Medicine and Hygiene. She is well positioned to lead this project as she also heads the Global Health Impact Project, an organization intended to extend access to medicines to the global poor (http://globalhealth.pythonanywhere.com/). Amidst the COVID-19 pandemic, she has published extensively on the need to ensure equitable access to life saving medicines, and how to ensure the equitable distribution of resources.</p>
+    </div>
+    <div class="col-sm-6">
+        <img width="191px" height="183px" src="static/img/WHO/miller2.jpg"/>
+        <p class="namecolorbluewho">Jennifer E. Miller</p>
+        <p class="whotxtcontent">Jennifer E. Miller, PhD, is an Assistant Professor in Yale School of Medicine Dr. Miller's research explores the ethics of healthcare innovation, particularly how drugs are researched, developed, marketed, priced and made accessible to patients domestically and globally. She also works on the ethics of big data in healthcare, including informed consent, data-sharing, and ownership concerns. Dr. Miller founded the nonprofit Bioethics International, an organization that sets standards, ranks, and audits pharmaceutical companies and products on these standards. and Director of the Good Pharma Scorecard initiative, an index that ranks new drugs and pharmaceutical companies on their ethics and patient-centricity performance. </p>
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img width="191px" height="183px" src="static/img/WHO/herlitz.jpg"/>
+        <p class="namecolorbluewho">Dr. Anders Herlitz</p>
+        <p class="whotxtcontent">Dr. Anders Herlitz is an Associate Professor at the Institute for Futures Studies and Associate professor in Practical Philosophy at Stockholm University. Before moving to Stockholm, he was affiliated with Harvard University, and prior to that, held a Marie Curie fellowship at Rutgers University and the University of Gothenburg. Dr. Herlitz's research concerns how to make justified choices when the alternative options are seemingly incomparable, what principles should be applied to evaluate different distributions of goods in diverse populations, and the relationship between principles and justified choice. He has a special interest in these issues in the context of healthcare and distribution of healthcare.</p>
+    </div>
+    <div class="col-sm-6">
+        <img width="191px" height="183px" src="static/img/WHO/zohar.jpg"/>
+        <p class="namecolorbluewho">Dr. Zohar Lenderman</p>
+        <p class="whotxtcontent">Dr. Zohar Lederman is a medical doctor and has received his Ph.D. in Bioethics at the National University of Singapore. Dr. Lederman was previously a visiting scholar at the Yale University Interdisciplinary Center for Bioethics. Moreover, he was a collaborator and consultant on a Communicable Diseases Public Health Research Grant (CD-PHRG), entitled: “One Health and Pandemic Planning: Creating a Bioethics Framework in Singapore.</p>
+    </div>
+</div>
+
+<div class="vaccineline"></div>
+<br>
+<div class="row">
+    <p class="titlecolorredwho" style="font-size:40px">PROJECTS</p>
+</div>
+
+<div class="row">
+    <p class="namecolorbluewho" style="font-size:40px">Papers</p>
+</div>
+
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+            <p class="redwhotxtabout">Against Vaccine Nationalism:</p>
+            <a href="static/img/WHO/VaccineNews1.png" target="_blank"><img width=300px height=350px src="{{ url_for('static', filename='img/WHO/Vaccine1_dp.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+            <p class="redwhotxtabout">Just allocation of COVID-19 vaccines:</p>
+            <a href="static/img/WHO/VaccineNews2.png" target="_blank"><img width=300px height=300px src="{{ url_for('static', filename='img/WHO/Vaccine2_dp.png') }}"></a>
+    </div>
+</div>
+<br>
+<div class="row">
+    <p class="namecolorbluewho" style="font-size:40px">News</p>
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Coronavirus: How do you vaccinate 7.7 billion people?</p>
+        <a href="https://www.bbc.com/news/av/health-55126179"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited25.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Covid-19 defeats US Marines</p>
+        <a href="https://www.bbc.co.uk/programmes/w3cszh19"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited26.png') }}"></a>
+    </div>
+</div>
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">How joining vaccine initiative Covax could be shot in the arm for China</p>
+        <a href="https://www.scmp.com/news/china/diplomacy/article/3105879/how-joining-vaccine-initiative-covax-could-be-shot-arm-china"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited1.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Bioethicist: Why the UK is getting vaccine distribution right and the US is not</p>
+        <a href="https://thehill.com/opinion/healthcare/529934-bioethicist-why-uk-getting-vaccine-distribution-right-and-us-is-not"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited2_dp.png') }}"></a>
+    </div>
+</div>
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Could Venues and Airlines Require Covid-19 Vaccinations for Entry?</p>
+        <a href="https://www.rollingstone.com/culture/culture-features/could-venues-and-airlines-require-covid-19-vaccinations-for-entry-1107002/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited3_dp.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">How Do You Decide Who Gets A Potentially Life-Saving Vaccine First?</p>
+        <a href="https://www.wpr.org/how-do-you-decide-who-gets-potentially-life-saving-vaccine-first"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited4_dp.png') }}"></a>
+    </div>
+</div>
+
+
+
+
+
+<!--Vaibhav Changes-->
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">How to Fix the Orphan Drug Problem Driving up Medical Costs        </p>
+        <a href="https://qz.com/1957480/how-to-fix-the-orphan-drug-problem-driving-up-medical-costs/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited5.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">How India’s Serum Institute became a COVID-19 Vaccine Powerhouse</p>
+        <a href="https://www.pri.org/stories/2021-02-04/how-india-s-serum-institute-became-covid-19-vaccine-powerhouse"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited6.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Commentary: Our Focus On COVID Risks a Resurgence of Other Diseases        </p>
+        <a href="https://www.timesunion.com/opinion/article/Commentary-Our-focus-on-COVID-risks-a-resurgence-15792874.php"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited7.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">The Price of a Drug Should be Based on its Therapeutic Benefits – Not Just What the Market Will Bear</p>
+        <a href="https://theconversation.com/the-price-of-a-drug-should-be-based-on-its-therapeutic-benefits-not-just-what-the-market-will-bear-149586"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited8.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Why COVID-19 vaccine distribution methods fall short and 3 ways to improve them</p>
+        <a href="https://www.eurekalert.org/pub_releases/2021-03/bu-wcv022321.php"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited9.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Researchers shed light on why COVID-19 vaccine distribution methods fall short, 3 ways to improve them</p>
+        <a href="https://www.helsinkitimes.fi/world-int/18782-researchers-shed-light-on-why-covid-19-vaccine-distribution-methods-fall-short-3-ways-to-improve-them.html"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited10.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">3 ways to improve Covid-19 vaccine distribution methods, suggest researchers</p>
+        <a href="https://www.livemint.com/science/health/3-ways-to-improve-covid-19-vaccine-distribution-methods-suggest-researchers-11614579342902.html"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited11.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">As Predicted: Immunity Passports Are No Longer A Fantasy</p>
+        <a href="https://www.thelastamericanvagabond.com/as-predicted-immunity-passports-are-no-longer-fantasy/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited12.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Vaccine Hoarding Could Make The Pandemic Drag on an Extra 7 Years</p>
+        <a href="https://www.sciencealert.com/vaccine-hoarding-could-make-the-pandemic-drag-on-for-many-more-years"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited13.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Is It Ethical To Travel Internationally Before The World Is Vaccinated?</p>
+        <a href="https://www.huffpost.com/entry/ethical-travel-internationally-before-world-vaccinated_l_603bf048c5b6ff75ac3d209d"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited14.png') }}"></a>
+    </div>
+</div>
+
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Why You Shouldn’t Travel Abroad Anytime Soon, Even If It Seems OK</p>
+        <a href="https://www.universalpersonality.com/why-you-shouldnt-travel-abroad-anytime-soon-even-if-it-seems-ok/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited15.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Vaccine Passports, Covid’s Next Political Flash Point</p>
+        <a href="https://www.nytimes.com/2021/03/02/world/europe/passports-covid-vaccine.html"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited16.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">‘Immunity passports’ for COVID-19 must be distributed equitably</p>
+        <a href="https://www.newswise.com/coronavirus/immunity-passports-for-covid-19-must-be-distributed-equitably/?article_id=747150"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited17.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">How will Canada (and the world) use immunity passports?</p>
+        <a href="https://www.citynews1130.com/2021/03/09/vaccine-passport-big-story-podcast/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited18.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">How to Make ‘Immunity Passports’ More Ethical</p>
+        <a href="https://www.scientificamerican.com/article/how-to-make-immunity-passports-more-ethical/"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited19.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Team of BU Researchers Say Global Vaccine Distribution Effort Needs Improvement</p>
+        <a href="https://www.wicz.com/story/43441392/team-of-bu-researchers-say-global-vaccine-distribution-effort-needs-improvement"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited20.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">Vaccine (Inter)Nationalism: Global Equity and COVID-19 Vaccines</p>
+        <a href="https://www.eventbrite.com/e/vaccine-internationalism-global-equity-and-covid-19-vaccines-tickets-142908748915"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited21.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">Researchers shed light on why COVID vaccine distribution methods fall short</p>
+        <a href="https://in.news.yahoo.com/researchers-shed-light-why-covid-005302376.html?guccounter=1&guce_referrer=aHR0cDovL3RyYW5zaXRpb24ubWVsdHdhdGVyLmNvbS8&guce_referrer_sig=AQAAAHNw-Ynv0zUkx-_CCb7MwpYyJRC4Kf5bCZ-B8vmsBITaDt82q1PrwAO43uOlkVOiG2oN2FgFraTUaN6ANERw2R72TSLDwUmiRVFhUg_i5FVYKNvadKdlrdVYQokZ7loG8SydvF5kkhf8-gy567QUC303yzBH5cY1MApTjjdW4U5-"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited22.png') }}"></a>
+    </div>
+</div>
+
+
+<br>
+<div class="row">
+    <div class="col-sm-6" style="margin:0px; padding:0px">
+        <p class="redwhotxtabout">How Do You Decide Who Gets A Potentially Life-Saving Vaccine First?</p>
+        <a href="https://www.wpr.org/how-do-you-decide-who-gets-potentially-life-saving-vaccine-first"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited23.png') }}"></a>
+    </div>
+    <div class="col-sm-6">
+        <p class="redwhotxtabout">BN/ Shooting at Atlanta & Vaccine Nationalism </p>
+        <a href="https://www.befm.or.kr/program/template.php?midx=89&pg=morning&cn=morning_sp&mode=view&page=1&intnum=27976"
+           target="_blank"><img width=300px height=300px
+           src="{{ url_for('static', filename='img/WHO/Cited24.png') }}"></a>
+    </div>
+</div>
+
+
+
+<!--Vaibhav Changes End-->
+
+
+
+
+
+
+
+
+<br>
+<div class="row">
+    <p class="namecolorbluewho" style="font-size:24px">
+        Cited in: <b>“Vaccine Ethics: What Are We Learning from COVID-19?”</b>
+            Carnegie Council for Ethics in International Affairs, 3 December, 2020.
+            <a href="https://www.carnegiecouncil.org/calendar/data/2020-12-03-vaccine-ethics-covid-19" target="_blank">https://www.carnegiecouncil.org/calendar/data/2020-12-03-vaccine-ethics-covid-19</a>
+    </p>
+    <!--<p class="namecolorbluewho" style="font-size:24px">-->
+    <!--    Cited in: <b>“Coronavirus: How do you vaccinate 7.7 billion people?”</b>  BBC, 30 November 2020.-->
+    <!--        <a href="https://www.bbc.com/news/av/health-55126179" target="_blank">https://www.bbc.com/news/av/health-55126179</a>-->
+    <!--</p>-->
+    <p class="namecolorbluewho" style="font-size:24px">
+        Cited in: <b>“More Than 46.2 Million Shots Given: Covid-19 Vaccine Tracker The U.S. has administered 15.6 million doses; Europe’s rollout begins.”</b>
+        Bloomberg. 19 January.
+    </p>
+    <p class="namecolorbluewho" style="font-size:24px">
+        <b>“Global Solidarity and Vaccine Allocation”</b>
+            <a href="https://www.haaretz.co.il/health/.premium-1.9153855" target="_blank">https://www.haaretz.co.il/health/.premium-1.9153855</a>
+    </p>
+</div>
+
+
+<div class="vaccineline"></div>
+<br>
+
+<div class="row">
+    <p class="titlecolorredwho" style="font-size:40px">TALK IS THE BEST MEDICINE SERIES</p>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-4">
+     <img id="back" src="static/img/WHO/talk_is_best.png" style="position:relative; padding: 20px; TOP: 0px; RIGHT: 100px; WIDTH:300px; HEIGHT:260px"/>
+  </div>
+
+    <div class="col-lg-8" style = "padding : 20px">
+        <p class="namecolorbluewho" style="font-size:36px; font-weight:bold;">About</p>
+        <p class="namecolorbluewho" style="font-size:24px">
+            From November 21st to March 21st,
+            we aim to produce five podcast episodes
+            hosted by Dr. Nicole Hassoun, whose
+            participants will be bioethicists and
+            ethicists including Drs. Anders Herlitz,
+            Zohar Lederman, and Jennifer Miller.
+        </p>
+        <p class="namecolorbluewho" style="font-size:24px">
+            For more information on the talk is the
+            best medicine series, see:<br>
+            <a href="https://ghipodcast.pythonanywhere.com/" target="_blank"><b>https://ghipodcast.pythonanywhere.com/</b></a>
+        </p>
+    </div>
+
+</div>
+
+{% endblock %}

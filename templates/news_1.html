@@ -1,0 +1,407 @@
+{% extends "layout.html" %}
+{% block title %}
+<title>News</title>
+{% endblock %}
+
+{% block frontimg %}
+<img id="fore" src="static/img/about.jpg" />
+{% endblock %}
+
+{% block content %}
+<div class="currentlocation">
+<p class="pagetitle">About / <a href="/news" class="titlebold">News</a></p>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+            <div class="contentbox">
+            <p class="titlecolorred">NEWS</p>
+            </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">OXFORD UNIVERSITY PRESS COVERS GLOBAL HEALTH IMPACT:</p>
+            <p class="txtcontent">The Oxford University Press blog discusses how protecting human rights can lead to an increasee in global health impact.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/ouparticle.jpeg" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/ouparticle_preview.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">NEWS BRIEF ON REMDESIVIR:</p>
+            <p class="txtcontent">Remdesivir is hard to obtain around the world</p>
+            <table class="newsarticle">
+               <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/remdesivir.jpeg" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/remdesivir.jpeg') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">MAKING AN IMPACT:</p>
+            <p class="txtcontent">This Harvard Global Health Footprint video explains the importance of rating systems like the Global Health Impact Index for global health.</p>
+            <iframe width="100%" height="232" src="https://www.youtube.com/embed/424zYUm36nU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">CHECK OUT THE NEWS ON NATIONAL PUBLIC RADIO:</p>
+            <p class="txtcontent">National Public Radio's Marketplace highlights the Global Health Impact Index.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news4.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news4.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">GHI FEATURED ON VOICE OF AMERICA:</p>
+            <p class="txtcontent">Voice of America details the impact of the Index and how it tracks areas in the world where medicine would make the most impact.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/news1.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/news1.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">THE WALL STREET JOURNAL: PHARMALOT</p>
+            <p class="txtcontent">Pharmalot highlights some companies' replies to the index's launch.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news6.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news6.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">READ ABOUT THE INDEX ON NEWS MEDICAL:</p>
+            <p class="txtcontent">Professor Hassoun says "We are looking at the outcomes of the drugs that the companies hold, so the actual impact on death and disability."</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/newsmedical.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/newsmedical.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">LEARN MORE ABOUT THE INDEX AT CAPITAL NEW YORK:</p>
+            <p class="txtcontent">Capital New York talks about the motivation for the index and gets some feedback from companies.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news5.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news5.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+     <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">SCIENCE NEWS LINE ARTICLE ON GHI:</p>
+            <p class="txtcontent">Binghamton University's Professor Hassoun looking at the outcomes and impact of drugs on death and disability.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="/static/img/newsthumb/sciencenewsline.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/sciencenewsline.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">HEALTH MEDICINE NETWORK LOOKS AT THE GHI:</p>
+            <p class="txtcontent">Many companies develop and supply drugs, but which companies actually make an impact? Find out on Health Medicine Network!</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="/static/img/newsthumb/healthmednetwork.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/healthmednetwork.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+     <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">BINGHAMTON UNIVERSITY MAGAZINE SUMMER 2015 EDITION:</p>
+            <p class="txtcontent">BU showcases GHI as an online source of information about companies and their drugs.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/binghamtonarticle.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/binghamtonarticle.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">CHECK OUT THE GLOBAL HEALTH IMPACT INDEX ON CDHR:</p>
+            <p class="txtcontent">Special guest Nicole chronicles the Human Development Index at the Centre for Development and Human Rights.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news12.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news12.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">ACADEMICS STAND AGAINST POVERTY LOOKS AT BINGHAMTON PROFESSORS WEB TOOL:</p>
+            <p class="txtcontent">ASAP discsusses how Professor Nicole Hassoun from Binghamton University launched a web tool to track impact of drugs worldwide.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/asapwebtool.jpeg" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/asapwebtool_preview.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">IMPACT ETHICS DISCUSSES INDEX:</p>
+            <p class="txtcontent">Impact Ethics covers the release of the Index and its benefits.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/news7.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/news7.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">FROM BELGIUM: BIG PHARMA AND THE HEALTH OF THE POOREST:</p>
+            <p class="txtcontent">Belgium newspaper article talks about the GHI.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news13.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news13.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">HARVARD LAW REVIEWS THE INDEX:</p>
+            <p class="txtcontent">Harvard Law discusses the rating system that serves as a foundation for the Index.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/news8.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/news8.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">COMPASS COVERS THE INDEX:</p>
+            <p class="txtcontent">Blog post describes the uneven availability of key medications concluded from the Index.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/news11.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news11.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">ACADEMICS STAND AGAINST POVERTY TRACKS THE INDEX:</p>
+            <p class="txtcontent">ASAP explains how the Index hopes to motivate pharmaceutical companies to act on the health of people worldwide.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/news10.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/news10.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">OP-ED ON THE GLOBAL HEALTH IMPACT INDEX:</p>
+            <p class="txtcontent">Council on Foriegn Relations Development Channel article explains one possible use for the Global Health Index: Fair Trade for Health</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/trade_for_health.png" target="_blank"><img width=100% src="{{ url_for('static',filename='img/newsthumb/news2.jpg') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">HIGHLIGHTING THE INDEX:</p>
+            <p class="txtcontent">Academics Stand Against Poverty highlights the Global Health Impact Index: Harnessing Consumer Choice to Drive Global Health Impact.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/asap_ghi.png" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/asap_ghi.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">SPANISH WEBSITE WRITES ABOUT THE GLOBAL HEALTH IMPACT</p>
+            <p class="txtcontent">América Economía showcases the impact of the GHI.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width="40%">
+                        <a href="static/img/newsthumb/spanisharticle.png" target="_blank"><img width=130% src="{{ url_for('static',filename='img/newsthumb/spanisharticle.png') }}" /></a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluetxtabout">NEWS BRIEF ON GLOBALIZATION AND GLOBAL HEALTH IMPACT:</p>
+            <p class="txtcontent">Check out a recent news article that talks about the Global Health Impact Index.</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/docs/news_brief_latest.pdf" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/news_brief.jpg') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="redtxtabout">COULD TREATING DRUG COMPANIES LIKE RESTAURANTS IMPROVE GLOBAL HEALTH?:</p>
+            <p class="txtcontent">Take a look at this article in which The World discusses the possibility of treating drug companies like restaurants, and the potential benefits this could bring</p>
+            <table class="newsarticle">
+                <tr>
+                    <td width=40%>
+                        <a href="static/img/newsthumb/restaurantarticle.jpeg" target="_blank"><img width=100% src="{{ url_for('static', filename='img/newsthumb/rest_preview.png') }}"</a>
+                    </td>
+                    <td>
+                        <p style="font-family:'Nunito','sans-serif';font-size:18px;font-weight:bolder;color:#404040;">Click on the image to read more!</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

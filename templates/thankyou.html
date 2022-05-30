@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static',filename='img/logo.png') }}">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block title %}{% endblock %}
+    <link href="{{ url_for('static',filename='stylesheet.css') }}" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="https://datamaps.github.io/scripts/datamaps.world.min.js"></script>
+
+
+    <script>
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        let doFadeIn = async function () {
+            var aImgDOM = document.getElementsByClassName("thankyoupplimg");
+
+            for (let i = 0; i < aImgDOM.length; i++) {
+                let imgDOM = aImgDOM[i];
+                imgDOM.classList.add("showthankyouppl");
+                if (i % 3 === 2) {
+                    await sleep(500);
+                }
+            }
+        };
+
+        window.onload = function (e) {
+            doFadeIn();
+        }
+
+    </script>
+
+
+</head>
+<body>
+<div class="jumbotron text-xs-center thankYouContainer">
+    <h1 class="display-3 ackHeader">Acknowledgments</h1>
+    <hr>
+    <p style="text-align: justify"> The Global Health Impact team would like to thank all of the people and
+        organizations that have contributed to
+        the project.<br><br>
+        We are especially thankful for discussions about the project at Binghamton University, Cornell University,
+        University of Pittsburgh, The Franco-Swedish Program in Philosophy and Economics, Goethe University, Carnegie
+        Mellon University, Stanford University, United Nations’ World Institute for Development Economics Research,
+        University of Salzburg, University of North Carolina - Chapel Hill, Duke University, and Academics Stand Against
+        Poverty.<br><br>
+        We are also especially grateful for support Binghamton University’s Citizenship, Rights, and Cultural Belonging
+        Grants Program, Interdisciplinary Collaboration Grants Program, Poverty and Inequality Transdisciplinary Working
+        Group Grants Program, DeFleur International Innovation Fund, and Harpur Dean’s Award; and the Berkman and Falk
+        Foundations at Carnegie Mellon University.<br><br>
+
+        We would also like to thank the WHO and the WHO TB Supranational Reference Laboratory Network (SRLN) for their contribution of data to our indexes.
+        <br> <br>
+
+    </p>
+
+    <div class="imagesContainer">
+        <div class="imageRow">
+            <div class="imageCell"><img src="./../static/img/thanks/BinghamtonUniversity.png" class="thankyoupplimg"/>
+            </div>
+            <div class="imageCell"><img src="./../static/img/thanks/CornellUniv.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/UNCChapelHill.png" class="thankyoupplimg"/></div>
+        </div>
+        <div class="imageRow">
+            <div class="imageCell"><img src="./../static/img/thanks/univPitts.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/franko.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/Stanford.png" class="thankyoupplimg"/></div>
+        </div>
+        <div class="imageRow">
+            <div class="imageCell"><img src="./../static/img/thanks/WIDER.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/univSalzburg.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/ASAP.png" class="thankyoupplimg"/></div>
+        </div>
+        <div class="imageRow">
+            <div class="imageCell"><img src="./../static/img/thanks/DukeUniv.png" class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/cmuBerkmanFacultyDevFund.png"
+                                        class="thankyoupplimg"/></div>
+            <div class="imageCell"><img src="./../static/img/thanks/goetheUniv.png" class="thankyoupplimg"/></div>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br>
+    <p class="lead" style="text-align: center">
+        <a class="btn btn-primary btn-sm" href="/" role="button">Continue to Homepage</a>
+    </p>
+</div>
+</body>
+</html>

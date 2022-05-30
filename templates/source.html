@@ -1,0 +1,200 @@
+{% extends "layout.html" %}
+{% block title %}
+<script src="/static/js/company.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+ [data-balloon] {
+  position: relative;
+  cursor: pointer; }
+  [data-balloon]:after {
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.18s ease-out 0.18s;
+    -moz-transition: all 0.18s ease-out 0.18s;
+    -ms-transition: all 0.18s ease-out 0.18s;
+    -o-transition: all 0.18s ease-out 0.18s;
+    transition: all 0.18s ease-out 0.18s;
+    font-family: sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    background: rgb(0, 131, 196, 0.9);
+    border-radius: 4px;
+    color: #fff;
+    content: attr(data-balloon);
+    padding: .5em 1em;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 10; }
+  [data-balloon]:hover:before, [data-balloon]:hover:after, [data-balloon][data-balloon-visible]:before, [data-balloon][data-balloon-visible]:after {
+    filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    pointer-events: auto; }
+    [data-balloon][data-balloon-pos='right']:after {
+    left: 100%;
+    margin-left: 11px;
+    top: 50%;
+    -webkit-transform: translate(-10px, -50%);
+    -moz-transform: translate(-10px, -50%);
+    -ms-transform: translate(-10px, -50%);
+    transform: translate(-10px, -50%); }
+  [data-balloon][data-balloon-pos='right']:hover:after, [data-balloon][data-balloon-pos='right'][data-balloon-visible]:after {
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
+</style>
+<style type="text/css">
+    .company-detail {
+        padding-top: 2px; 
+        font-family: 'Nunito','sans-serif';
+    }
+    .horizontal-bar {
+        height: 10px;
+        display: inline-block;
+        font-size: 0;
+        margin-right: -4px;
+    }
+}    
+</style>
+<title>Sources</title>
+{% endblock %}
+
+{% block frontimg %}
+<img id="fore" src="{{ url_for('static',filename='img/company.jpg') }}" />
+{% endblock %}
+
+{% block content %}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data1 = google.visualization.arrayToDataTable([['Source','DALY']{% for row in source1 %},['{{row.0}}',{{row.1}}]{% endfor %}]);
+    var options1 = {
+        slices: [{% for row in source1 %}{color: '{{row.2 |safe}}'},{% endfor %}{}],
+        height: 282,
+        width: 450,
+        'chartArea': {top: 0, left: 10, width: '100%', height: '100%'},
+        legend: {
+            position: "right",
+            alignment: "center"
+        },
+        is3D: 'true',
+        tooltip: {trigger: 'focus'}
+    };
+    var data2 = google.visualization.arrayToDataTable([['Source','DALY']{% for row in source2 %},['{{row.0}}',{{row.1}}]{% endfor %}]);
+    var options2 = {
+        slices: [{% for row in source2 %}{color: '{{row.2 |safe}}'},{% endfor %}{}],
+        height: 282,
+        width: 450,
+        'chartArea': {top: 0, left: 10, width: '100%', height: '100%'},
+        legend: {
+            position: "right",
+            alignment: "center"
+        },
+        is3D: 'true',
+        tooltip: {trigger: 'focus'}
+    };
+    var chart1 = new google.visualization.PieChart(document.getElementById('srcpie1'));
+    var chart2 = new google.visualization.PieChart(document.getElementById('srcpie2'));
+    chart1.draw(data1, options1);
+    chart2.draw(data2, options2);
+  };
+</script>
+<script type="text/javascript">
+</script>
+<div class="currentlocation">
+<p class="pagetitle">Index / <a href="/index/source/{{ speclocate.0 }}/{{ speclocate.1 }}" class="pagetitle">Source</a> / <a href="/index/source/{{ speclocate.0 }}/{{ speclocate.1 }}" class="pagetitle">{{ speclocate.0 }}</a> / <a href="/index/source/{{ speclocate.0 }}/{{ speclocate.1 }}" class="titlebold firstLetterp">{{ speclocate.2 }}</a></p></div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="titlecolorredlower">Disease: <span class="titlecolorred">{{ speclocate.2 }}</span></p>
+            <p class="txtcontent">
+                The Global Health Impact Source Index evaluates organizations' 
+                drugs' contributions to alleviating the global burden of HIV/AIDS, 
+                TB, and malaria. Various source organizations invest in the 
+                distribution of important drugs, each with differing cost-effectiveness 
+                as well as aggregate impact. Some of the most widely known source organizations 
+                include UNICEF, the World Bank's International Development Association (IDA), and 
+                the World Health Organization. Some sources also contribute to others sources' 
+                drug distribution efforts through funding or in other ways. All contribute to many 
+                things beyond drugs for our focus diseases. Within the Source Index, there are figures 
+                showcasing the proportions of Global Disease Burden Alleviated by Source's Drugs, a 
+                ranked list of Source Total Drug Scores, and Drugs' Impact Scores by Source. 
+                For additional information, please see <a class='links' href='/about'>About the Index</a> and <a class='links' href='/methodology'>Methodology</a>. 
+            </p>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluefontlight" style="font-size:26px; !important">Proportion of Global Disease Burden <b>Alleviated</b> by Source</p>
+            <div class="piewrap">
+                <div class="piechart" id="srcpie1"></div>
+            </div>
+        </div>
+    </div>
+</div><br>
+<a name="Limitation"></a>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="contentbox managecontentboxheight">
+            <p class="bluefontlight" style="font-size:26px; !important">Sources Total Drug Scores</p>
+            <div id="chart_div">
+                {% for comp in source2 %}
+                    <a data-balloon="{{ comp.0 }}: {{ comp.1 }}" data-balloon-pos="down-right">
+                        <div id="" style="padding-top: 2px; font-family: 'Nunito','sans-serif';">{{ comp.0 }}</div>
+                        <div style="width: {{ comp.3 }}%;background-color:{{ comp.2 }};height: 10px;display:inline-block;font-size:0;margin-right:-4px;"></div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="contentbox">
+            <p class="bluefontlight" style="font-size:26px; !important">Impact Score by Source</p>
+            <div class="piewrap">
+                <div class="piechart" id="srcpie2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <p class="bluefontlight">Limitations</p>
+        <p class="txtcontent">
+            The information on this website is meant to provide a metric of the impacts of sources’ drugs on a few important global diseases. This index is not meant to measure how “good” a source organization is in relation to its peers, or how effective it has been at ensuring access to drugs. Many sources work in conjunction with each other and every source has a different budget allotted for the payment and distribution of drugs vs other technologies (like insecticides for combating malaria).
+        </p>
+        <!-- <p class="txtcontent">
+            For a more comprehensive view that takes into account the vital role of generics companies in ensuring access to essential medicines,
+            see the<a href="/index/company"> manufacturers’ tab.</a>
+        </p> -->
+    </div>
+    <div class="col-sm-6">
+        <p class="bluefontlight">Purpose and Value</p>
+        <p class="txtcontent">
+            While not intended to serve as a measure of good source organization behavior, 
+            we believe that this index can serve as a valuable tool. This Index provides one 
+            of the first scientifically rigorous comparison of source organizations' drugs’ 
+            impacts on death and disability. Different sources evaluate impact in different 
+            ways - sometimes based on simple contribution to addressing a problem (rather than on 
+            the proportion of the problem that source alleviates). While our data comes from the 
+            GPRM database and inherits its limitations, a scientific model of sources' drugs' 
+            impact is a neglected, yet important, piece of the larger picture. While we endorse the 
+            vital importance of strong access policies, we believe this index can be an important 
+            piece in that puzzle.        
+        </p>
+</div>
+</div>
+
+{% endblock %}
