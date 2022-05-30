@@ -1,0 +1,47 @@
+,0,1,2,3,4,5,6,7,8,9,10
+0,Gatifloxacin (Gfx),"Kyorin Pharmaceutical Co., Ltd.",4644.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,Isoniazid (H or INH),F. Hoffmann-La Roche Ltd,10842565.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,Streptomycin (S or STR),Merck,7632.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+3,Efavirenz (EFV),Merck,0.0,0.0,485058.31,0.0,0.0,0.0,0.0,0.0,0.0
+4,Ivermectin (IVM),Merck,0.0,0.0,0.0,2500.47,0.0,361.8,0.0,1979.86,460.25
+5,Pyrazinamide (Z or PZA),Merck,10849854.12,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+6,Moxifloxacin (Mfx),Bayer Healthcare,4644.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+7,Praziquantel (PZQ),Bayer Healthcare,0.0,0.0,0.0,0.0,0.0,0.0,95171.88,0.0,0.0
+8,Chloroquine (CQ),Bayer Healthcare,0.0,161573.61,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+9,RIfampicin (R or RMP),Sanofi,10842565.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+10,Artesunate/Amodiaquine (AS + AQ),Sanofi,0.0,7964803.829999999,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+11,Artesunate / Sulfadoxine-pyrimethamine (AS + SP),Sanofi,0.0,24589.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12,Chloroquine + Primaquine (CQ + PQ),Sanofi,0.0,575723.8500000001,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+13,Artesunate + Mefloquine + Primaquine (AS + MQ + PQ),Sanofi,0.0,790.25,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+14,Artesunate + Amodiaquine + Primaquine (AS + AQ + PQ),Sanofi,0.0,9035.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15,Artesunate + Sulfadoxine + Primaquine (AS + SP + PQ),Sanofi,0.0,537740.84,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+16,Ofloxacin (Ofx),Daiichi Sankyo,4644.06,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+17,Levofloxacin (Lfx),Daiichi Sankyo,16283.740000000002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+18,Amikacin (Amk),Bristol-Myers Squibb,6192.08,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+19,Didanosine (ddl),Bristol-Myers Squibb,0.0,0.0,3816.45,0.0,0.0,0.0,0.0,0.0,0.0
+20,Stavudine (d4t),Bristol-Myers Squibb,0.0,0.0,565363.09,0.0,0.0,0.0,0.0,0.0,0.0
+21,Atazanavir/Ritonavir (ATV/r),Bristol-Myers Squibb,0.0,0.0,6929.7,0.0,0.0,0.0,0.0,0.0,0.0
+22,Ethambutol (E or EMB),Pfizer Inc.,10842565.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+23,Ethionamide (Eto),Pfizer Inc.,11639.68,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+24,Cycloserine (Cs),Pfizer Inc.,30215.93,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25,p-aminosalicylic acid (PAS),Pfizer Inc.,11639.68,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+26,Diethylcarbamazine (DEC),Pfizer Inc.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,480.74
+27,Doxycycline (D),Pfizer Inc.,0.0,1092.39,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+28,Lamivudine (3TC),Shire Pharmaceuticals,0.0,0.0,1657585.18,0.0,0.0,0.0,0.0,0.0,0.0
+29,Nevirapine (NVP),Boehringer Ingelheim,0.0,0.0,1283039.54,0.0,0.0,0.0,0.0,0.0,0.0
+30,Emtricitabine (FTC),"Gilead Sciences, Inc. ",0.0,0.0,162518.0,0.0,0.0,0.0,0.0,0.0,0.0
+31,Tenofovir (TDF),"Gilead Sciences, Inc. ",0.0,0.0,374543.94,0.0,0.0,0.0,0.0,0.0,0.0
+32,Capreomycin (Cm),Eli Lilly and Company,6192.08,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+33,Lopinavir / Ritonavir (LPV/r),Abbot Laboratories,0.0,0.0,49601.99,0.0,0.0,0.0,0.0,0.0,0.0
+34,Mebendazole (MBD),Johnson and Johnson,0.0,0.0,0.0,10.56,1343.28,1220.43,0.0,0.0,0.0
+35,Artemether-Lumefantrine (AL),Novartis,0.0,10944211.600000001,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+36,DHA-Piperaquine (DHA-PPQ),Chongqing Holley Pharmaceutical Co. Ltd and Sigma Tau Industrie Farmaceutiche,0.0,27424.95,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+37,Artesunate (AS),"Guilin Pharmaceutical Co., Ltd",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+38,Artemether (AM),"Guilin Pharmaceutical Co., Ltd",0.0,14092.73,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+39,Albendazole (ALB),GlaxoSmithKline,0.0,0.0,0.0,21201.5,9280.15,3115.28,0.0,0.0,940.99
+40,Atovaquone + Proguanil (AT + PG),GlaxoSmithKline,0.0,9.52,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41,Abacavir (ABC),GlaxoSmithKline,0.0,0.0,23397.5,0.0,0.0,0.0,0.0,0.0,0.0
+42,Zidovudine (AZT),GlaxoSmithKline,0.0,0.0,864338.42,0.0,0.0,0.0,0.0,0.0,0.0
+43,Artemisinin + Piperaquine (ART + PPQ),Artepharm,0.0,63.15,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+44,Clarithromycin (CL),Taisho Pharmaceuticals,0.0,994.82,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+45,Unmet Need,Unmet Need,49473334.31,65237588.0,70925759.79,751024.77,443434.47,97574.63,2029995.52,1040301.48,1361353.76

@@ -1,0 +1,45 @@
+,0,1,2,3,4,5,6,7,8,9,10,11
+0,Gatifloxacin (Gfx),"Kyorin Pharmaceutical Co., Ltd.",2437.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2437.92
+1,Isoniazid (H or INH),F. Hoffmann-La Roche Ltd,13398454.29,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13398454.29
+2,Sulfadoxine-pyrimethamine (SP),F. Hoffmann-La Roche Ltd,0.0,1.23,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.23
+3,Streptomycin (S or STR),Merck,1545.32,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1545.32
+4,Efavirenz (EFV),Merck,0.0,0.0,505527.31,0.0,0.0,0.0,0.0,0.0,0.0,505527.31
+5,Ivermectin (IVM),Merck,0.0,0.0,0.0,80811.0,0.0,1941.88,0.0,0.0,590.33,83343.21
+6,Pyrazinamide (Z or PZA),Merck,13399757.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13399757.5
+7,Moxifloxacin (Mfx),Bayer Healthcare,2437.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2437.92
+8,Chloroquine (CQ),Bayer Healthcare,0.0,262623.97,0.0,0.0,0.0,0.0,0.0,0.0,0.0,262623.97
+9,Praziquantel (PZQ),Bayer Healthcare,0.0,0.0,0.0,0.0,0.0,0.0,190933.46,0.0,0.0,190933.46
+10,RIfampicin (R or RMP),Sanofi,13398454.29,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13398454.29
+11,Artesunate/Amodiaquine (AS + AQ),Sanofi,0.0,21274347.13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21274347.13
+12,Artesunate / Sulfadoxine-pyrimethamine (AS + SP),Sanofi,0.0,2054295.52,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2054295.52
+13,Chloroquine + Primaquine (CQ + PQ),Sanofi,0.0,208759.94,0.0,0.0,0.0,0.0,0.0,0.0,0.0,208759.94
+14,Artesunate+Mefloquine+Primaquine (AS + MQ + PQ),Sanofi,0.0,0.33,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.33
+15,Ofloxacin (Ofx),Daiichi Sankyo,2437.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2437.92
+16,Levofloxacin (Lfx),Daiichi Sankyo,7359.49,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7359.49
+17,Amikacin (Amk),Bristol-Myers Squibb,3250.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3250.56
+18,Didanosine (ddl),Bristol-Myers Squibb,0.0,0.0,51.8,0.0,0.0,0.0,0.0,0.0,0.0,51.8
+19,Stavudine (d4t),Bristol-Myers Squibb,0.0,0.0,539861.48,0.0,0.0,0.0,0.0,0.0,0.0,539861.48
+20,Atazanafir / Ritonavir (ATV/r),Bristol-Myers Squibb,0.0,0.0,3012.72,0.0,0.0,0.0,0.0,0.0,0.0,3012.72
+21,Ethambutol (E or EMB),Pfizer Inc.,13398454.29,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13398454.29
+22,Ethionamide (Eto),Pfizer Inc.,4921.57,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4921.57
+23,Cycloserine (Cs),Pfizer Inc.,14673.26,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14673.26
+24,p-aminosalicylic acid (PAS),Pfizer Inc.,4921.57,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4921.57
+25,Diethylcarbamazine (DEC),Pfizer Inc.,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1446.6,1446.6
+26,Nelfinavir (NFV),Pfizer Inc.,0.0,0.0,30.75,0.0,0.0,0.0,0.0,0.0,0.0,30.75
+27,Doxycycline (D),Pfizer Inc.,0.0,731.95,0.0,0.0,0.0,0.0,0.0,0.0,0.0,731.95
+28,Lamivudine (3TC),Shire Pharmaceuticals,0.0,0.0,1210432.27,0.0,0.0,0.0,0.0,0.0,0.0,1210432.27
+29,Nevirapine (NVP),Boehringer Ingelheim,0.0,0.0,745182.4,0.0,0.0,0.0,0.0,0.0,0.0,745182.4
+30,Emtricitabine (FTC),"Gilead Sciences, Inc. ",0.0,0.0,66578.48,0.0,0.0,0.0,0.0,0.0,0.0,66578.48
+31,Tenofovir (TDF),"Gilead Sciences, Inc. ",0.0,0.0,217274.49,0.0,0.0,0.0,0.0,0.0,0.0,217274.49
+32,Capreomycin (Cm),Eli Lilly and Company,3250.56,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3250.56
+33,Lopinavir / Ritonavir (LPV/r),Abbot Laboratories,0.0,0.0,20914.82,0.0,0.0,0.0,0.0,0.0,0.0,20914.82
+34,Artemether-Lumefantrine (AL),Novartis,0.0,29747257.66,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29747257.66
+35,DHA-Piperaquine (DHA-PPQ),Chongqing Holley Pharmaceutical Co. Ltd and Sigma Tau Industrie Farmaceutiche,0.0,14710.89,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14710.89
+36,Albendazole (ALB),GlaxoSmithKline,0.0,0.0,0.0,268425.53,12564.85,4205.38,0.0,0.0,2036.92,287232.68
+37,Abacavir (ABC),GlaxoSmithKline,0.0,0.0,16508.81,0.0,0.0,0.0,0.0,0.0,0.0,16508.81
+38,Zidovudine (AZT),GlaxoSmithKline,0.0,0.0,503417.77,0.0,0.0,0.0,0.0,0.0,0.0,503417.77
+39,Mebendazole (MBD),Johnson and Johnson,0.0,0.0,0.0,1209.0,116.47,327.57,0.0,0.0,0.0,1653.04
+40,Clarithromycin (CL),Taisho Pharmaceuticals,0.0,676.73,0.0,0.0,0.0,0.0,0.0,0.0,0.0,676.73
+41,Artemisinin + Piperaquine (ART + PPQ),Artepharm,0.0,43.63,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.63
+42,Proguanil (PG),Imperial Chemical Industries ,0.0,18.91,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.91
+43,Unmet Need,Unmet Need,49400875.6,81385970.97,81989587.1,830035.61,461983.03,100912.8,2388539.47,0.0,1728561.57,218286466.15
